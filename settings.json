@@ -1,0 +1,512 @@
+{
+	// ================================
+	// Text Editor
+	// ================================
+	// #region General
+	"editor.autoClosingBrackets": "beforeWhitespace",
+	"editor.autoClosingQuotes": "beforeWhitespace",
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.biome": "explicit",
+		"source.organizeImports.biome": "explicit",
+		"source.fixAll.markdownlint": "explicit"
+	},
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.foldingHighlight": false,
+	"editor.glyphMargin": false,
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.bracketPairsHorizontal": false,
+	"editor.guides.highlightActiveBracketPair": false,
+	"editor.inlayHints.padding": true,
+	"editor.linkedEditing": true,
+	"editor.multiCursorPaste": "full",
+	"editor.occurrencesHighlight": "off",
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "none",
+	"editor.scrollBeyondLastColumn": 10,
+	"editor.selectionHighlight": false,
+	"editor.showFoldingControls": "always",
+	"editor.smartSelect.selectLeadingAndTrailingWhitespace": false,
+	"editor.smoothScrolling": true,
+	"editor.stickyTabStops": true,
+	"editor.tabCompletion": "on",
+	"editor.wordWrap": "on",
+	"editor.aiStats.enabled": true,
+	"editor.experimentalGpuAcceleration": "on",
+	// #endregion
+	// #region Cursor
+	"editor.cursorBlinking": "smooth",
+	"editor.cursorSmoothCaretAnimation": "on",
+	"editor.cursorSurroundingLines": 50,
+	// #endregion
+	// #region Find
+	"editor.find.addExtraSpaceOnTop": true,
+	"editor.find.autoFindInSelection": "multiline",
+	// #endregion
+	// #region Font
+	"editor.fontFamily": "BerkeleyMono Static W500",
+	"editor.fontLigatures": true,
+	// #endregion
+	// #region Formatting
+	"editor.formatOnSave": true,
+	// #endregion
+	// #region Diff Editor
+	"diffEditor.codeLens": true,
+	"diffEditor.experimental.showMoves": true,
+	// #endregion
+	// #region Minimap
+	"editor.minimap.enabled": false,
+	"editor.minimap.showSlider": "always",
+	// #endregion
+	// #region Suggestions
+	"editor.acceptSuggestionOnEnter": "off",
+	"editor.suggest.matchOnWordStartOnly": false,
+	"editor.suggest.showWords": false,
+	"editor.suggest.snippetsPreventQuickSuggestions": true,
+	"editor.wordBasedSuggestions": "off",
+	// #endregion
+	// #region Files
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true
+	},
+	// #endregion
+	// ================================
+
+	// ================================
+	// Workbench
+	// ================================
+	// #region General
+	"workbench.layoutControl.enabled": false,
+	"workbench.list.horizontalScrolling": true,
+	"workbench.list.smoothScrolling": true,
+	"workbench.startupEditor": "none",
+	// #endregion
+	// #region Appearance
+	"workbench.colorCustomizations": {
+		"editor.background": "#16191d",
+		"sideBar.background": "#121417",
+		"activityBar.background": "#121417",
+		"titleBar.activeBackground": "#121417",
+		"titleBar.inactiveBackground": "#121417",
+		"tab.activeBackground": "#16191d",
+		"tab.inactiveBackground": "#121417",
+		"statusBar.background": "#121417",
+		"statusBar.noFolderBackground": "#121417",
+		"panel.background": "#121417",
+		"editorGroupHeader.tabsBackground": "#121417",
+		"breadcrumb.background": "#121417",
+		"tab.activeBorder": "#21252b",
+		"input.background": "#121417",
+		"terminal.background": "#0000",
+		"panel.border": "#0000"
+	},
+	"workbench.colorTheme": "One Dark Pro Darker",
+	"workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+	"workbench.sideBar.location": "right",
+	"workbench.tips.enabled": false,
+	"workbench.tree.indent": 16,
+	"workbench.tree.renderIndentGuides": "always",
+	"workbench.view.alwaysShowHeaderActions": true,
+	// #endregion
+	// #region Breadcrumbs
+	// #endregion
+	// #region Editor Management
+	"workbench.editor.closeOnFileDelete": true,
+	"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+	"workbench.editor.revealIfOpen": true,
+	"workbench.editor.sharedViewState": true,
+	"workbench.editor.tabActionCloseVisibility": false,
+	"workbench.editor.tabSizing": "shrink",
+	"workbench.editor.wrapTabs": true,
+	// #endregion
+	// #region Settings Editor
+	// #endregion
+	// #region Zen Mode
+	// #endregion
+	// #region Screencast Mode
+	// #endregion
+	// #region Browser
+	// #endregion
+	// ================================
+
+	// ================================
+	// Window
+	// ================================
+	// #region General
+	"window.commandCenter": false,
+	"window.dialogStyle": "custom",
+	"window.menuBarVisibility": "toggle",
+	"window.title": "${folderName}",
+	// #endregion
+	// #region New Window
+	"window.newWindowDimensions": "maximized",
+	// #endregion
+	// ================================
+
+	// ================================
+	// Chat
+	// ================================
+	// #region Agent
+	"chat.planAgent.defaultModel": "Gemini 3.1 Pro (Preview) (copilot)",
+	// #endregion
+	// #region Appearance
+	"chat.tips.enabled": false,
+	// #endregion
+	// #region Sessions
+	// #endregion
+	// #region Tools
+	"chat.tools.global.autoApprove": true,
+	// #endregion
+	// #region MCP
+	// #endregion
+	// #region Context
+	"chat.useNestedAgentsMdFiles": true,
+	// #endregion
+	// #region Inline Chat
+	"inlineChat.defaultModel": "Gemini 3.1 Pro (Preview) (copilot)",
+	// #endregion
+	// #region Miscellaneous
+	// #endregion
+	// ================================
+
+	// ================================
+	// Features
+	// ================================
+	// #region Accessibility Signals
+	// #endregion
+	// #region Accessibility
+	// #endregion
+	// #region Explorer
+	"explorer.confirmDelete": false,
+	// #endregion
+	// #region Search
+	// #endregion
+	// #region Debug
+	"debug.confirmOnExit": "always",
+	"debug.showBreakpointsInOverviewRuler": true,
+	"debug.terminal.clearBeforeReusing": true,
+	"debug.toolBarLocation": "docked",
+	// #endregion
+	// #region Testing
+	"testing.automaticallyOpenPeekViewDuringAutoRun": true,
+	"testing.defaultGutterClickAction": "contextMenu",
+	// #endregion
+	// #region Source Control
+	"scm.alwaysShowActions": true,
+	"scm.alwaysShowRepositories": true,
+	// #endregion
+	// #region Extensions
+	// #endregion
+	// #region Terminal
+	"terminal.integrated.automationProfile.windows": {
+		"path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+		"icon": "terminal-powershell"
+	},
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.cursorStyle": "line",
+	"terminal.integrated.cursorStyleInactive": "none",
+	"terminal.integrated.defaultProfile.windows": "PowerShell",
+	"terminal.integrated.enableImages": true,
+	"terminal.integrated.fontFamily": "GeistMono NF",
+	"terminal.integrated.gpuAcceleration": "on",
+	"terminal.integrated.profiles.windows": {
+		"Command Prompt": {
+			"source": "Command Prompt",
+			"icon": "terminal-cmd",
+			"path": "C:\\Windows\\System32\\cmd.exe",
+			"overrideName": true
+		},
+		"Git Bash": {
+			"source": "Git Bash",
+			"icon": "terminal-bash",
+			"path": "C:\\Program Files\\Git\\bin\\bash.exe",
+			"overrideName": true
+		},
+		"Windows PowerShell": {
+			"source": "Windows PowerShell",
+			"icon": "terminal-powershell",
+			"path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+			"overrideName": true
+		},
+		"PowerShell": {
+			"source": "PowerShell",
+			"icon": "terminal-powershell",
+			"path": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
+			"overrideName": true
+		}
+	},
+	"terminal.integrated.rightClickBehavior": "default",
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.stickyScroll.enabled": true,
+	"terminal.integrated.tabs.focusMode": "singleClick",
+	// #endregion
+	// #region Task
+	// #endregion
+	// #region Problems
+	// #endregion
+	// #region Output
+	// #endregion
+	// #region Comments
+	// #endregion
+	// #region Remote
+	// #endregion
+	// #region Timeline
+	// #endregion
+	// #region Notebook
+	// #endregion
+	// #region Merge Editor
+	// #endregion
+	// ================================
+
+	// ================================
+	// Application
+	// ================================
+	// #region Proxy
+	// #endregion
+	// #region keyboard
+	// #endregion
+	// #region Update
+	// #endregion
+	// #region Telemetry
+	"telemetry.feedback.enabled": false,
+	// #endregion
+	// #region Settings Sync
+	// #endregion
+	// #region Network
+	// #endregion
+	// #region Experimental
+	// #endregion
+	// ================================
+
+	// ================================
+	// Security
+	// ================================
+	// #region Workspace
+	"security.workspace.trust.enabled": false,
+	// #endregion
+	// ================================
+
+	// ================================
+	// Extensions
+	// ================================
+	// #region .ipynb Support
+	// #endregion
+	// #region .NET Install Tool
+	// #endregion
+	// #region Advanced New File
+	// #endregion
+	// #region Biome
+	// #endregion
+	// #region C/C++
+	// #region    IntelliSense
+	// #endregion
+	// #region    Formatting
+	// #endregion
+	// #region    Code Documentation
+	// #endregion
+	// #region    Code Analysis
+	// #endregion
+	// #region    Debugging
+	// #endregion
+	// #region    Resource Management
+	// #endregion
+	// #region    Miscellaneous
+	// #endregion
+	// #endregion
+	// #region C/C++ Devtools
+	// #endregion
+	// #region C#
+	// #region    Project
+	// #endregion
+	// #region    Text Editor
+	// #endregion
+	// #region    Debugger
+	// #endregion
+	// #region    LSP Server
+	// #endregion
+	// #region    Razor
+	// #endregion
+	// #region    OmniSharp
+	// #endregion
+	// #endregion
+	// #region C# Dev Kit
+	// #endregion
+	// #region CMake Tools
+	// #endregion
+	// #region Colorize
+	// #endregion
+	// #region Container Tools
+	// #endregion
+	// #region CSS Language Features
+	// #region    CSS
+	"css.lint.unknownAtRules": "ignore",
+	// #endregion
+	// #region    LESS
+	// #endregion
+	// #region    SCSS (Sass)
+	// #endregion
+	// #endregion
+	// #region Dev Containers
+	// #endregion
+	// #region EditorConfig
+	// #endregion
+	// #region Emmet
+	// #endregion
+	// #region Error Lens
+	"errorLens.enableOnDiffView": true,
+	"errorLens.gutterIconSet": "defaultOutline",
+	"errorLens.messageTemplate": "$severity $message ($code)",
+	"errorLens.respectUpstreamEnabled": {
+		"statusBar": true
+	},
+	"errorLens.scrollbarHackEnabled": true,
+	"errorLens.severityText": ["⛔", "⚠️", "ℹ️", "❇️"],
+	// #endregion
+	// #region GHE.com & GitHub Enterprise Server Authentication
+	// #endregion
+	// #region Git
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+	"git.fetchOnPull": true,
+	"git.mergeEditor": true,
+	"git.openRepositoryInParentFolders": "never",
+	// #endregion
+	// #region GitHub
+	// #endregion
+	// #region GitHub Actions
+	// #endregion
+	// #region GitHub Copilot Chat
+	"github.copilot.chat.agent.autoFix": true,
+	"github.copilot.chat.anthropic.thinking.budgetTokens": 32000,
+	"github.copilot.enable": {
+		"*": true,
+		"plaintext": true,
+		"markdown": true,
+		"scminput": false
+	},
+	"github.copilot.nextEditSuggestions.enabled": true,
+	"github.copilot.chat.copilotMemory.enabled": true,
+	"github.copilot.chat.anthropic.tools.websearch.enabled": true,
+	"github.copilot.chat.anthropic.tools.websearch.maxUses": 20,
+	"github.copilot.chat.githubMcpServer.enabled": true,
+	"github.copilot.chat.languageContext.inline.typescript.enabled": true,
+	// #endregion
+	// #region GitHub Pull Requests
+	// #endregion
+	// #region GitHub Repositories
+	// #endregion
+	// #region Grunt
+	// #endregion
+	// #region Gulp
+	// #endregion
+	// #region HTML
+	// #endregion
+	// #region Jake
+	// #endregion
+	// #region JavaScript and TypeScript
+	// #region    Preferences
+	// #endregion
+	// #region    Formatting
+	// #endregion
+	// #region    Validation
+	// #endregion
+	// #region    Implicit Project Config
+	// #endregion
+	// #region    Language Features
+	// #endregion
+	// #region    Suggestions
+	// #endregion
+	// #region    CodeLens
+	// #endregion
+	// #region    Inlay Hints
+	// #endregion
+	// #region    TS Server Advanced Settings
+	// #endregion
+	// #endregion
+	// #region JavaScript Debugger
+	// #endregion
+	// #region JS/TS Chat Features
+	// #endregion
+	// #region JSON
+	"json.schemaDownload.trustedDomains": {
+		"*": true
+	},
+	// #endregion
+	// #region Markdown
+	"markdown.occurrencesHighlight.enabled": true,
+	"markdown.preview.doubleClickToSwitchToEditor": false,
+	"markdown.preview.scrollEditorWithPreview": false,
+	"markdown.preview.scrollPreviewWithEditor": false,
+	"markdown.preview.typographer": true,
+	"markdown.updateLinksOnFileMove.enabled": "always",
+	"markdown.validate.enabled": true,
+	// #endregion
+	// #region Markdown Math
+	// #endregion
+	// #region Markdownlint
+	"markdownlint.config": {
+		"MD024": false
+	},
+	// #endregion
+	// #region Material Icons
+	// #endregion
+	// #region Media Previewer
+	// #endregion
+	// #region Merge Conflict
+	// #endregion
+	// #region Mermaid Chat Features
+	// #endregion
+	// #region Microsoft Account
+	// #region    Microsoft Sovereign Cloud
+	// #endregion
+	// #region    Microsoft
+	// #endregion
+	// #endregion
+	// #region NPM
+	// #endregion
+	// #region One Dark Pro
+	// #endregion
+	// #region PHP
+	// #endregion
+	// #region PowerShell
+	// #region    Interface
+	// #endregion
+	// #region    Formatting
+	// #endregion
+	// #region    Editor Services
+	// #endregion
+	// #region    Pester
+	// #endregion
+	// #region    Terminal
+	// #endregion
+	// #region    Developer
+	// #endregion
+	// #endregion
+	// #region Pylance
+	// #endregion
+	// #region Python
+	// #endregion
+	// #region Python Debugger
+	// #endregion
+	// #region Python Environments
+	// #endregion
+	// #region Reference Search View
+	// #endregion
+	// #region Remote Repositories
+	// #endregion
+	// #region Simple Browser
+	// #endregion
+	// #region Tailwind CSS IntelliSense
+	// #endregion
+	// #region WSL
+	// #endregion
+	// #region XML
+	"xml.symbols.maxItemsComputed": 500000
+	// #endregion
+	// ================================
+}
