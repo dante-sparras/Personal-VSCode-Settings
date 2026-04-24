@@ -105,20 +105,22 @@
 		"panel.border": "#0000"
 	},
 	"workbench.colorTheme": "One Dark Pro Darker",
-	"workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto",
+	"workbench.iconTheme": "material-icon-theme",
 	"workbench.sideBar.location": "right",
 	"workbench.tips.enabled": false,
-	"workbench.tree.indent": 16,
 	"workbench.tree.renderIndentGuides": "always",
 	"workbench.view.alwaysShowHeaderActions": true,
 	// #endregion
 	// #region Breadcrumbs
+	"breadcrumbs.icons": false,
+	"breadcrumbs.symbolPath": "off",
 	// #endregion
 	// #region Editor Management
 	"workbench.editor.closeOnFileDelete": true,
 	"workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
 	"workbench.editor.revealIfOpen": true,
 	"workbench.editor.sharedViewState": true,
+	"workbench.editor.showTabIndex": true,
 	"workbench.editor.tabActionCloseVisibility": false,
 	"workbench.editor.tabSizing": "shrink",
 	"workbench.editor.wrapTabs": true,
@@ -126,10 +128,10 @@
 	// #region Settings Editor
 	// #endregion
 	// #region Zen Mode
-	// #endregion
-	// #region Screencast Mode
-	// #endregion
-	// #region Browser
+	"zenMode.hideLineNumbers": false,
+	"window.dialogStyle": "custom",
+	"window.menuBarVisibility": "toggle",
+	"window.title": "${folderName}",
 	// #endregion
 	// ================================
 
@@ -138,9 +140,6 @@
 	// ================================
 	// #region General
 	"window.commandCenter": false,
-	"window.dialogStyle": "custom",
-	"window.menuBarVisibility": "toggle",
-	"window.title": "${folderName}",
 	// #endregion
 	// #region New Window
 	"window.newWindowDimensions": "maximized",
@@ -394,6 +393,7 @@
 	"github.copilot.chat.anthropic.tools.websearch.maxUses": 20,
 	"github.copilot.chat.githubMcpServer.enabled": true,
 	"github.copilot.chat.languageContext.inline.typescript.enabled": true,
+	"github.copilot.chat.newWorkspace.useContext7": true,
 	// #endregion
 	// #region GitHub Pull Requests
 	// #endregion
@@ -408,11 +408,16 @@
 	// #region Jake
 	// #endregion
 	// #region JavaScript and TypeScript
+	// #region    General
+	"js/ts.experimental.useTsgo": true,
+	// #endregion
 	// #region    Preferences
+	"js/ts.preferences.preferTypeOnlyAutoImports": true,
 	// #endregion
 	// #region    Formatting
 	// #endregion
 	// #region    Validation
+	"js/ts.tsserver.experimental.enableProjectDiagnostics": true,
 	// #endregion
 	// #region    Implicit Project Config
 	// #endregion
@@ -421,10 +426,16 @@
 	// #region    Suggestions
 	// #endregion
 	// #region    CodeLens
+	"js/ts.implementationsCodeLens.enabled": true,
+	"js/ts.implementationsCodeLens.showOnAllClassMethods": true,
+	"js/ts.implementationsCodeLens.showOnInterfaceMethods": true,
+	"js/ts.referencesCodeLens.enabled": true,
+	"js/ts.referencesCodeLens.showOnAllFunctions": true,
 	// #endregion
 	// #region    Inlay Hints
 	// #endregion
 	// #region    TS Server Advanced Settings
+	"js/ts.tsdk.promptToUseWorkspaceVersion": true,
 	// #endregion
 	// #endregion
 	// #region JavaScript Debugger
@@ -432,6 +443,7 @@
 	// #region JS/TS Chat Features
 	// #endregion
 	// #region JSON
+	"json.format.enable": false,
 	"json.schemaDownload.trustedDomains": {
 		"*": true
 	},
@@ -469,6 +481,9 @@
 	// #region NPM
 	// #endregion
 	// #region One Dark Pro
+	"oneDarkPro.bold": true,
+	"oneDarkPro.italic": false,
+	"oneDarkPro.vivid": true,
 	// #endregion
 	// #region PHP
 	// #endregion
