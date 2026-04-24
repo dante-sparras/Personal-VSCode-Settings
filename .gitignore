@@ -1,0 +1,6 @@
+# Ignore all files
+*
+
+# Don't ignore 'settings.json' and '.gitignore'
+!settings.json
+!.gitignore
