@@ -212,7 +212,6 @@
 	"terminal.integrated.defaultProfile.windows": "PowerShell",
 	"terminal.integrated.enableImages": true,
 	"terminal.integrated.fontFamily": "GeistMono NF",
-	"terminal.integrated.gpuAcceleration": "on",
 	"terminal.integrated.profiles.windows": {
 		"Command Prompt": {
 			"source": "Command Prompt",
